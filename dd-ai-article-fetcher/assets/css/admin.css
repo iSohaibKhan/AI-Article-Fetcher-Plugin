@@ -1,0 +1,60 @@
+/* ============================================================
+   Digital Doer AI Article Fetcher – Admin Styles
+   ============================================================ */
+
+/* ---------- Global tweaks ---------- */
+.wrap .form-table th {
+	width: 180px;
+	vertical-align: top;
+}
+.wrap .form-table input.regular-text,
+.wrap .form-table textarea {
+	max-width: 480px;
+}
+
+/* ---------- History table ---------- */
+table.widefat.striped td {
+	vertical-align: top;
+}
+table.widefat td[style*="word-break:break-all"] {
+	word-break: break-all;
+}
+.ai-history-url {
+	word-break: break-all;
+}
+
+/* ---------- External thumb column (Posts list) ---------- */
+#the-list .column-ddaaf_thumb {
+	width: 70px;
+}
+#the-list .column-ddaaf_thumb img {
+	height: 45px;
+	width: auto;
+	border-radius: 4px;
+	box-shadow: 0 0 2px rgba(0,0,0,.2);
+	background: #fff;
+	padding: 1px;
+}
+
+/* ---------- Buttons / Notices ---------- */
+.ddaaf-btn-inline {
+	display: inline-block;
+	margin-right: 8px;
+}
+
+/* ---------- Fetch page forms ---------- */
+#ddaaf_url {
+	width: 100%;
+	max-width: 520px;
+}
+#ddaaf_cat {
+	min-width: 220px;
+}
+
+/* ---------- External thumbnail front-end preview (optional) ---------- */
+.ddaaf-external-thumb,
+.ddaaf-thumb {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
